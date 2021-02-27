@@ -52,7 +52,7 @@ namespace HomeWork1_Framework
             }
         }
 
-        public int FullPrice()
+        public int FullPrice()// Подсчёт суммы 
         {
             int sum = 0;
             foreach (var r in _recordings)
